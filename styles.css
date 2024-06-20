@@ -33,10 +33,11 @@ h1 {
     position: absolute;
     background-color: #007bff;
     color: white;
-    padding: 10px;
+    padding: 20px;
     border-radius: 50%;
     font-size: 18px;
     animation: floatUp 10s linear infinite;
+
 }
 
 @keyframes floatUp {
@@ -72,3 +73,18 @@ button {
 button:hover {
     background: #0056b3;
 }
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+    #game-area {
+        height: 200px;
+        
+    }
+    h1 {
+        font-size: 20px;
+    }
+}
+

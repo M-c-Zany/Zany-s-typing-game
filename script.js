@@ -1,4 +1,3 @@
-// scripts.js
 document.addEventListener('DOMContentLoaded', () => {
     const gameArea = document.getElementById('game-area');
     const textInput = document.getElementById('text-input');
@@ -74,7 +73,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     startGameButton.addEventListener('click', startGame);
-
-    // Start the game initially
     startGame();
 });
